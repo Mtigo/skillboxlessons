@@ -348,6 +348,16 @@
   .header__item {
     margin-right: 26px;
     height: 50px;
+    top: 4px;
+    left: 4px;
+  }
+
+  .header__item a::after {
+    bottom: -4px;
+  }
+
+  .header__item a:focus {
+    outline-offset: 2px;
   }
 
   .header__search {
