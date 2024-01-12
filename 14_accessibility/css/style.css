@@ -673,6 +673,10 @@ img {
   appearance: none;
 }
 
+.footer__check:checked {
+  opacity: 0;
+}
+
 .footer__span {
   position: relative;
   padding-left: 19px;
